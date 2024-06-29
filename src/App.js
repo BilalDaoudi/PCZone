@@ -8,7 +8,6 @@ import DetailProduct from './Pages/ProductDetail';
 import Panier from './Pages/Panier';
 function App(){
     return (
-        
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Home />} />
