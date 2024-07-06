@@ -7,6 +7,7 @@ export default function Contact() {
         <div className="col-7 p-5">
           <div className="contact">
             <form>
+    
               <div className="form-group mt-4">
                 <label className="form-label">Nom</label>
                 <input
@@ -14,6 +15,7 @@ export default function Contact() {
                   placeholder="tapez ton nom"
                 />
               </div>
+                    
               <div className="form-group mt-4">
                 <label className="form-label">Email</label>
                 <input
@@ -21,6 +23,7 @@ export default function Contact() {
                   placeholder="tapez ton mail"
                 />
               </div>
+                    
               <div className="form-group mt-4">
                 <label className="form-label">Message</label>
                 <textarea
@@ -30,6 +33,7 @@ export default function Contact() {
                   placeholder="tapez ton message"
                 />
               </div>
+                    
               <div className="form-group mt-4 text-end">
                 <button className="btn btn-primary">Envoyer</button>&nbsp;
                 <button type="reset" className="btn ">
