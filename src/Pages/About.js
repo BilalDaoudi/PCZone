@@ -15,7 +15,6 @@ export default function About() {
                 personnels.
               </p>
             </div>
-
             <div className="card-about">
               <h5 className="titre-about">Notre mission</h5>
               <p className="pabout">
@@ -26,7 +25,6 @@ export default function About() {
                 marques et de modèles, ainsi qu'un service clientèle de qualité.
               </p>
             </div>
-
             <div className="card-about">
               <h5 className="titre-about">Nos valeurs</h5>
               <ul className="valeur-about">
@@ -50,7 +48,6 @@ export default function About() {
               </ul>
             </div>
           </div>
-
           {/* <h5>Retrouvez-nous sur les réseaux sociaux</h5>
           <p className="pabout">
             Suivez-nous sur les réseaux sociaux pour rester informé des
