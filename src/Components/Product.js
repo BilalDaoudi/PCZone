@@ -6,11 +6,13 @@ export default function Product(props) {
   return (
 <div className="col-lg-3 col-md-6 col-sm-6 mt-3">
   <div className="card p-2" style={{ marginLeft: '10px' }}>
+  
     <div className="img-content">
       <Link to={uri}>
         <img className="card-img-top product-img" src={props.product.image} alt="" />
       </Link>
     </div>
+  
     <div className="card-body">
       <strong>
         <p className="font-weight-bold">{props.product.name} - {props.product.model}</p>
@@ -20,6 +22,7 @@ export default function Product(props) {
       <br />Processeur &nbsp;: {props.product.Processeur}
       </p>
     </div>
+        
     <div className="card-footer d-flex align-items-center justify-content-between">
       <strong>
         <p className="mb-0 text-primary font-weight-bold">{props.product.prix} MAD</p>
@@ -30,6 +33,7 @@ export default function Product(props) {
         </button>
       </Link>
     </div>
+        
   </div>
 </div>
 
