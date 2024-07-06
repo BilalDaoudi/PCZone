@@ -1,7 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-
 export default function Menu(props) {
   const Cart = useSelector((state) => state.Cart);
   let Home = "nav-link ";
@@ -59,7 +58,6 @@ export default function Menu(props) {
               </Link>
             </li>
           </ul>
-
           <span className="navbar-text">
             <Link className={Panier} to="/Panier">
               <div className="cart-icon" data-count={Cart.length}>
