@@ -5,13 +5,10 @@ export const DeleteAll = () => ({
     type: 'Add',
     cart:newcart
   });
-  
   export const Delete = (id) => ({
     type: 'Delete',
     idcart:id
   });
-  
-    
   export const Update = (updatecart) => ({
     type: 'Update',
     cart:updatecart
