@@ -5,7 +5,10 @@ import Menu from "../Components/Menu";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {FaTrash } from 'react-icons/fa';
 
+
+
 export default function Panier() {
+  
   const Cart = useSelector((state) => state.Cart);
   const CodePromo = useSelector((state) => state.CodePromo);
   const [total, setTotal] = useState(
