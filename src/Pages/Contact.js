@@ -1,8 +1,5 @@
 import Menu from "../Components/Menu";
-
-
 export default function Contact() {
-  
   return (
     <div  className="background">
       <Menu active="Contact" />
