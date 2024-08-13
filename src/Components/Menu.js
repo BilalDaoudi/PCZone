@@ -9,13 +9,11 @@ export default function Menu(props) {
   let Contact = "nav-link ";
   let Products = "nav-link ";
   let Panier = "nav-link ";
-  
   if (props.active === "Home") Home += "active";
   if (props.active === "About") About += "active";
   if (props.active === "Contact") Contact += "active";
   if (props.active === "Products") Products += "active";
   if (props.active === "Panier") Panier += "active";
-  
   return (
     <nav className="navbar navbar-expand-lg" >
       <div className="container-fluid">
