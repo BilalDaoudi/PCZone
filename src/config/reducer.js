@@ -1,4 +1,5 @@
 import data from "../data/products.json";
+
 const objetState = {
   Products: data,
   Cart: [],
@@ -7,6 +8,7 @@ const objetState = {
     {Code : "daoudi1" , remise : 10},
   ]
 };
+
 export default function reducer(state = objetState, actionstate) {
   switch (actionstate.type) {
     case "Add":
