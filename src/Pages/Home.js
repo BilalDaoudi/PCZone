@@ -1,9 +1,6 @@
 import Menu from "../Components/Menu";
-
-
 export default function Home() {
   return (
-    
     <div className="background">
       <Menu active="Home" />
       <div className="row">
