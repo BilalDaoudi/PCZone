@@ -1,4 +1,5 @@
-[{
+[
+  {
   "id": 1,
   "marque": "HP",
   "name": "HP Pavilion",
@@ -9,6 +10,7 @@
   "Processeur": "Intel Core i5",
   "Stockage": "256GB SSD"
 },
+  
 {
   "id": 2,
   "marque": "Dell",
