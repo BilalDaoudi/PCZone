@@ -1,5 +1,7 @@
 import Menu from "../Components/Menu";
+
 export default function About() {
+  
   return (
     <div  className="background">
       <Menu active="About" />
