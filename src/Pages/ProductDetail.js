@@ -5,6 +5,7 @@ import { Add, Update } from "../config/actions";
 import Menu from "../Components/Menu";
 
 export default function DetailProduct() {
+  
   const { id } = useParams();
   const Product = useSelector((state) =>
     state.Products.find((p) => p.id === parseInt(id))
