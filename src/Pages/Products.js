@@ -6,11 +6,13 @@ import Menu from "../Components/Menu";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin , FaWhatsapp } from 'react-icons/fa';
 
 export default function Products() {
+  
   const [searchTerm, setSearchTerm] = useState("");
   const Products = useSelector((state) => state.Products);
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
   };
+  
   return (
     <div  className="">
       <Menu active="Products" />
