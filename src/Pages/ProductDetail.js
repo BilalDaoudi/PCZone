@@ -1,7 +1,11 @@
 import React, { useState } from "react";
+
 import { useParams } from "react-router-dom";
+
 import { useDispatch, useSelector } from "react-redux";
+
 import { Add, Update } from "../config/actions";
+
 import Menu from "../Components/Menu";
 
 export default function DetailProduct() {
@@ -10,9 +14,11 @@ export default function DetailProduct() {
   const Product = useSelector((state) =>
     state.Products.find((p) => p.id === parseInt(id))
   );
+  
   const FindCart = useSelector((state) =>
     state.Cart.filter((c) => c.id === parseInt(id))
   );
+  
   const dispatch = useDispatch();
   const [quantiteProduct, setQuantite] = useState(1);
   const [totalProduct, setTotalProduct] = useState(Product.prix);
