@@ -2,8 +2,12 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { DeleteAll, Delete } from "../config/actions";
 import Menu from "../Components/Menu";
+
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import {FaTrash } from 'react-icons/fa';
+
+
 
 export default function Panier() {
   
