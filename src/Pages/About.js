@@ -10,8 +10,11 @@ export default function About() {
         <div className="col-7 p-3 mt-4">
           <div className="container">
             <div className="card-about">
+    
               <h5 className="titre-about"> À propos de nous</h5>
+    
               <p className="pabout">
+    
                 Bienvenue sur notre site de vente de PC portables ! Chez nous,
                 vous trouverez une large sélection d'ordinateurs portables haut
                 de gamme, adaptés à tous vos besoins professionnels et
