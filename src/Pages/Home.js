@@ -7,9 +7,13 @@ export default function Home() {
     <div className="background">
       <Menu active="Home" />
       <div className="row">
+    
         <div className="col-7 p-5">
+    
           <div className="home">
+    
             <h2>Bienvenue sur notre site de vente de PC portables</h2>
+    
             <p>
               Nous proposons une sélection de PC portables de haute qualité à
               des prix compétitifs.
