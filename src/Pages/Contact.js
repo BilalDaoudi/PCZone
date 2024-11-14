@@ -6,12 +6,17 @@ export default function Contact() {
     <div  className="background">
       <Menu active="Contact" />
       <div className="row">
+    
         <div className="col-7 p-5">
+    
           <div className="contact">
+    
             <form>
     
               <div className="form-group mt-4">
+    
                 <label className="form-label">Nom</label>
+    
                 <input
                   className="form-control bg-light"
                   placeholder="tapez ton nom"
