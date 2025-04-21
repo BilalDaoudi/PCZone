@@ -1,14 +1,7 @@
 import React, { useState } from "react";
-
 import { useParams } from "react-router-dom";
-
 import { useDispatch, useSelector } from "react-redux";
-
 import { Add, Update } from "../config/actions";
-
-
-
-
 import Menu from "../Components/Menu";
 
 export default function DetailProduct() {
