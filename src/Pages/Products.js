@@ -1,20 +1,10 @@
 import React, { useState } from "react";
-
 import { FaSearch } from "react-icons/fa";
-
 import { useSelector } from "react-redux";
-
 import Product from "../Components/Product";
-
-
-
-
 import Menu from "../Components/Menu";
-
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin , FaWhatsapp } from 'react-icons/fa';
-
 export default function Products() {
-  
   const [searchTerm, setSearchTerm] = useState("");
   const Products = useSelector((state) => state.Products);
   const handleSearchChange = (event) => {
