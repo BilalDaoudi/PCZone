@@ -1,11 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 export default function Product(props) {
-
-
-
-
-  
   const uri = "/Product/" + props.product.id;
   
   return (
