@@ -2,6 +2,9 @@ export const DeleteAll = () => ({
     type: 'DeleteAll'
   });
 
+
+
+
     export const Add = (newcart) => ({
     type: 'Add',
     cart:newcart
