@@ -1,5 +1,9 @@
 import data from "../data/products.json";
 
+
+
+
+
 const objetState = {
   Products: data,
   Cart: [],
